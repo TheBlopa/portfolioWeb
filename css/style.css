@@ -2,7 +2,7 @@
   width: 90%;
   color: #f1faee;
   position: absolute;
-  top: 50%;
+  top: 55%;
   left: 50%;
   transform: translate(-50%, -50%);
   text-align: center;
@@ -17,7 +17,7 @@
   color: #f1faee;
   border: 1px solid #e63946;
   padding: 12px 34px;
-  background: transparent;
+  background: rgba(230, 57, 70, 0.2);
   position: relative;
   cursor: pointer;
 }
@@ -26,4 +26,53 @@
   background: #e63946;
   transition: 0.5s;
   color: #f1faee;
+}
+.red-btn {
+  background: #e63946;
+  transition: 0.1s;
+}
+.red-btn:hover {
+  border: 1px solid #f1faee;
+  box-shadow: 0 0 20px 0px rgba(29, 53, 87, 0.8);
+}
+.more-btn {
+  color: #e63946;
+  background: transparent;
+}
+.footer {
+  position: relative;
+}
+.git-col {
+  flex-basis: 31%;
+  background: #a8dadc;
+  border-radius: 10px;
+  margin-bottom: 5%;
+  padding: 20px 12px;
+  box-sizing: border-box;
+  transition: 0.2s;
+}
+.git-col h3 {
+  color: #1d3557;
+  text-align: center;
+  font-weight: 600;
+  margin: 10px 0;
+}
+.git-col p {
+  text-align: center;
+}
+.git-col:hover {
+  box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+}
+.card:hover {
+  box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+}
+.navbar-light .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28241, 250, 238, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+.navbar-light .navbar-toggler {
+  color: rgba(241, 250, 238, 0.5);
+  border-color: rgba(241, 250, 238, 1);
+}
+.navbar-toggler {
+  background-color: rgba(29, 53, 87, 0.7);
 }
