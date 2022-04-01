@@ -1,5 +1,6 @@
 .title {
   width: 90%;
+  height: 20%;
   color: #f1faee;
   position: absolute;
   top: 55%;
@@ -10,7 +11,10 @@
 .title h1 {
   font-size: 4rem;
 }
-
+.title a {
+  font-weight: 600;
+  font-size: 20px;
+}
 .hero-btn {
   display: inline-block;
   text-decoration: none;
@@ -75,4 +79,45 @@
 }
 .navbar-toggler {
   background-color: rgba(29, 53, 87, 0.7);
+}
+.footer li.nav-item {
+  padding: 0px 10px;
+}
+
+.projects .card{
+  flex-direction: row;
+}
+.projects .card img {
+  width: 30%;
+}
+
+@media (max-width: 520px) {
+  .footer {
+    font-size: 10px;
+  }
+  .footer li.nav-item {
+    padding: 0px 3px;
+  }
+  .footer h6 {
+    font-size: 14px;
+  }
+  .projects .card{
+    font-size: 13px;
+  }
+  .projects .card {
+    flex-direction: column;
+  }
+  .projects .card img {
+    width: auto;
+  }
+}
+
+@media (max-width: 400px) {
+  .title h1 {
+    font-size: 30px;
+  }
+  .title a {
+    font-size: 16px;
+    font-weight: 400;
+  }
 }
