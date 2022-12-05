@@ -41,8 +41,9 @@
                     </div>
                     <div class="col d-flex justify-content-end">
                         <nav class="navbar navbar-expand-lg navbar-light justify-content-end">
-                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
-                                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                            <button class="navbar-toggler" type="button" data-toggle="collapse"
+                                data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                                aria-label="Toggle navigation">
                                 <span class="navbar-toggler-icon">
                                 </span>
                             </button>
@@ -56,8 +57,10 @@
                                             style="color: #F1FAEE;">
                                             Pablo G. Lacalle
                                         </a>
-                                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown" style="background: #F1FAEE;">
-                                            <li><a class="dropdown-item" href="/es/pablo" style="color: #1D3557;">Todo</a>
+                                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown"
+                                            style="background: #F1FAEE;">
+                                            <li><a class="dropdown-item" href="/es/pablo"
+                                                    style="color: #1D3557;">Todo</a>
                                             </li>
                                             <li>
                                                 <hr class="dropdown-divider">
@@ -76,8 +79,10 @@
                                             style="color: #F1FAEE;">
                                             Jorge R. La Calle
                                         </a>
-                                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown" style="background: #F1FAEE;">
-                                            <li><a class="dropdown-item" href="/es/jorge" style="color: #1D3557;">Todo</a>
+                                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown"
+                                            style="background: #F1FAEE;">
+                                            <li><a class="dropdown-item" href="/es/jorge"
+                                                    style="color: #1D3557;">Todo</a>
                                             </li>
                                             <li>
                                                 <hr class="dropdown-divider">
@@ -86,14 +91,16 @@
                                                     style="color: #1D3557;">Proyectos Git</a></li>
                                         </ul>
                                     </li>
-                                    <li class="nav-item"><a href="/contact" class="nav-link"
+                                    <li class="nav-item"><a href="/es/contacto" class="nav-link"
                                             style="color: #F1FAEE;">Contacto</a></li>
                                     <li class="nav-item dropdown">
-                                        <a class="nav-link dropdown-toggle" href="next" id="navbarDropdown" role="button"
-                                            data-bs-toggle="dropdown" aria-expanded="false" style="color: #F1FAEE;">
+                                        <a class="nav-link dropdown-toggle" href="next" id="navbarDropdown"
+                                            role="button" data-bs-toggle="dropdown" aria-expanded="false"
+                                            style="color: #F1FAEE;">
                                             Idioma
                                         </a>
-                                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown" style="background: #F1FAEE;">
+                                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown"
+                                            style="background: #F1FAEE;">
                                             <li><a class="dropdown-item" href="/next"
                                                     style="color: #1D3557;">English</a></li>
                                             <li><a class="dropdown-item" href="/es/en_progreso"
@@ -111,16 +118,37 @@
         <!-- Title of the header -->
         <div class="title" style="top: 85%;">
             <div class="row justify-content-md-center text-center">
-                <h1>Página en progreso</h1>
+                <h2>Contacto con<br>Pablo o Jorge</h2>
             </div>
         </div>
-    </div>
-    <!-- work in progress -->
-    <div class="container py-5">
-        <div class="row justify-content-md-center text-center mb-4">
-            <h1 style="color: #1D3557;">Esta página está en progreso, rogamos que esperen.</h1>
         </div>
-    </div>
+        <!-- form_contact -->
+        <div class="container py-5">
+            <form class="row g-3" action="form-handler.php" method="post">
+                <div class="col-md-6">
+                    <label for="name_input" class="form-label">Nombre</label>
+                    <input type="text" class="form-control" id="name_input" placeholder="Introduce tu nombre" required name="name">
+                </div>
+                <div class="col-md-6">
+                    <label for="email_input" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="email_input" placeholder="Introduce tu email" required name="email">
+                </div>
+                <div class="col-12">
+                    <label for="subject_input" class="form-label">Asunto</label>
+                    <input type="text" class="form-control" id="subject_input" placeholder="Asunto" required name="subject">
+                </div>
+                <div class="col-12">
+                    <label for="message_input" class="form-label">Mensaje</label>
+                    <textarea class="form-control" placeholder="Deja tu comentario aqui" id="message_input" style="height: 100px"
+                        required name="message"></textarea>
+                </div>
+                <p>En este momento solo se puede contactar con Pablo, pero si se quiere hablar con Jorge sólo ponlo en el asunto.
+                </p>
+                <div class="col-12">
+                    <button type="submit" class="hero-btn red-btn">Send</button>
+                </div>
+            </form>
+        </div>
     <!-- Footer -->
     <footer class="footer py-5" style="background: #F1FAEE;">
         <ul class="nav justify-content-center border-bottom pb-3 mb-3">
@@ -155,7 +183,7 @@
                     </ul>
                 </div>
             </li>
-            <li class="nav-item"><a href="/contact" class="nav-link px-2" style="color: #1D3557;">
+            <li class="nav-item"><a href="/es/sobre_nosotros" class="nav-link px-2" style="color: #1D3557;">
                     <h6>Contacto</h6>
                 </a></li>
         </ul>
