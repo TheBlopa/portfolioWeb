@@ -1,0 +1,49 @@
+.navbar{
+    top: 5%;
+    font-size: 17px;
+    width: 80%;
+    left: 10%;
+    padding: 30px;
+}
+.navbar-brand{
+    font-size: 2rem !important;
+}
+.text-nav{
+    color: #F1FAEE !important;
+}
+footer{
+    background-color: #F1FAEE;
+    padding: 30px 20px;
+}
+.foot_container{
+    width: 80%;
+    margin: auto;
+    padding-top: 30px;
+}
+.col_footer{
+    margin-left: 200px;
+}
+.li_tittle{
+    border-bottom:1px solid #1D3557;
+    display: inline-block;
+    margin-bottom: 10px;
+}
+.li_tittle > a{
+    color: #1D3557;
+    text-decoration: none;
+}
+.list > li > a{
+    color: #1D3557;
+    text-decoration: none;
+}
+.contact{
+    color: #1D3557;
+    text-decoration: none;
+    font-style: normal;
+}
+.icons{
+    margin-top: 20px;
+}
+.icons > li > a{
+    color: #1D3557;
+}

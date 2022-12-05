@@ -1,0 +1,198 @@
+{
+  "name": "Skills",
+  "color": "#00000",
+  "_comment": "Each level must have 10 of size value in total, to normalize the graph",
+  "children": [
+    {
+      "name": "Data Science",
+      "color": "#6A040F",
+      "_comment": "size of 7",
+      "children": [
+        { 
+          "name": "ETL",
+          "size": 1,
+          "color": "#BB4E0B"
+        },
+        { 
+          "name": "Python",
+          "color": "#EC6816",
+          "children":[
+            { 
+              "name": "Pandas",
+              "size": 0.2,
+              "color": "#BB4E0B"
+            },
+            { 
+              "name": "TensorFlow",
+              "size": 0.2,
+              "color": "#EC6816"
+            },
+            { 
+              "name": "NumPy",
+              "size": 0.2,
+              "color": "#F08315"
+            },
+            { 
+              "name": "Matplotlib",
+              "size": 0.2,
+              "color": "#FAA943"
+            },
+            { 
+              "name": "Scikit-learn",
+              "size": 0.2,
+              "color": "#FABD4C"
+            }
+          ]
+        },
+        { 
+          "name": "R",
+          "color": "#F08315",
+          "children":[
+            { 
+              "name": "dplyr",
+              "size": 0.38,
+              "color": "#BB4E0B"
+            },
+            { 
+              "name": "knitr",
+              "size": 0.20,
+              "color": "#EC6816"
+            },
+            { 
+              "name": "tidyverse",
+              "size": 0.37,
+              "color": "#F08315"
+            },
+            { 
+              "name": "general R",
+              "color": "#FAA943",
+              "children":[
+                  { 
+                    "name": "purr",
+                    "size": 0.07,
+                    "color": "#BB4E0B"
+                  },
+                  { 
+                    "name": "stringr",
+                    "size": 0.07,
+                    "color": "#EC6816"
+                  },
+                  { 
+                    "name": "readr",
+                    "size": 0.18,
+                    "color": "#F08315"
+                  },
+                  { 
+                    "name": "others",
+                    "size": 0.18,
+                    "color": "#FAA943"
+                  }
+                ]
+            },
+            { 
+              "name": "Visualization",
+              "color": "#FABD4C",
+              "children":[
+                { 
+                  "name": "ggplot2",
+                  "size": 0.17,
+                  "color": "#BB4E0B"
+                },
+                { 
+                  "name": "ggraph",
+                  "size": 0.06,
+                  "color": "#EC6816"
+                },
+                { 
+                  "name": "circlize",
+                  "size": 0.06,
+                  "color": "#F08315"
+                },
+                { 
+                  "name": "others",
+                  "size": 0.16,
+                  "color": "#FAA943"
+                }
+              ]
+            }
+          ]
+        },
+        { 
+          "name": "SQL",
+          "size": 0.5,
+          "color": "#FAA943"
+        },
+        { 
+          "name": "No-SQL",
+          "size": 0.5,
+          "color": "#FABD4C"
+        }
+        ]
+    },
+    {
+      "name": "Multiplataform Coding",
+      "color": "#E5383B",
+      "_comment": "size of 3",
+      "children": [
+        {
+          "name": "Mobile",
+          "color": "#BB4E0B",
+          "children":[
+            {
+              "name": "Python",
+              "size": 0.5,
+              "color": "#BB4E0B"
+            }
+          ]
+        },
+        {
+          "name": "Web",
+          "color": "#EC6816",
+          "children":[
+            {
+              "name": "HTML",
+              "size": 0.45,
+              "color": "#BB4E0B"
+            },
+            {
+              "name": "Css",
+              "size": 0.2,
+              "color": "#EC6816"
+            },
+            {
+              "name": "JS",
+              "size": 0.11,
+              "color": "#F08315"
+            },
+            {
+              "name": "React",
+              "size": 0.45,
+              "color": "#FAA943"
+            }
+          ]
+        },
+        {
+          "name": "General Coding",
+          "color": "#F08315",
+          "children":[
+            {
+              "name": "Python",
+              "size": 0.42,
+              "color": "#BB4E0B"
+            },
+            {
+              "name": "Java",
+              "size": 0.41,
+              "color": "#EC6816"
+            },
+            {
+              "name": "C++",
+              "size": 0.42,
+              "color": "#F08315"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

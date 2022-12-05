@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body{
+    background-color: #150e0d;
+    color: aliceblue;
+}
+.main_page {
+    text-align: center;
+    background-image: linear-gradient(rgba(29, 53, 87, 0.4), rgba(29, 53, 87, 0.2)),
+        url(https://ik.imagekit.io/4s0yrabzrtp/banner_v9N3t_CYn.png?ik-sdk-version=javascript-1.4.3&updatedAt=1648078767123);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.tittle_main{
+    top: 33%;
+    position: relative;
+    color: aliceblue;
+    font-size: 4rem;
+    font-weight: 600;
+}
+
+.page {
+    text-align: center;
+    background-image: linear-gradient(rgba(223, 125, 46, 0.4), rgba(0, 0, 0, 0.322)),
+        url(https://ik.imagekit.io/4s0yrabzrtp/DSC_6189-HDR_jkgN3HYG2.png?ik-sdk-version=javascript-1.4.3&updatedAt=1661617096690);
+    height: 80vh;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+
+.container{
+    border-bottom: 2px solid rgb(247, 112, 2);
+    border-top: 2px solid rgb(247, 112, 2);
+}
